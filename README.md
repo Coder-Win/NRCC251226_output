@@ -10,11 +10,12 @@ This repository uses [Git Large File Storage (LFS)](https://git-lfs.com/) to tra
 ### Option 2: Using Git with Git LFS
 
 Clone the repository:
-bash
+``` bash
    git clone https://github.com/Coder-Win/NRCC251226_output.git
    cd NRCC251226_output
    git lfs install
    git lfs pull
+```
 
 Note: Avoid using Code > Download ZIP from GitHub for LFS files, as it will not include large file contents—only pointer references.
 
